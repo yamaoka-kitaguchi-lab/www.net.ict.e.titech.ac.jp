@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://yamaoka-kitaguchi-lab.github.io/news/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://yamaoka-kitaguchi-lab.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IEICE総合大会で発表しました</title>
+      <link>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0320/</link>
+      <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0320/</guid>
+      <description>ほげほげほげ</description>
+    </item>
+    
+    <item>
+      <title>情報ネットワーク研究会で発表しました</title>
+      <link>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0301/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0301/</guid>
+      <description>ほげほげほげ</description>
+    </item>
+    
+    <item>
+      <title>学士論文発表会が行われました</title>
+      <link>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0214/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0214/</guid>
+      <description>ほげほげほげ</description>
+    </item>
+    
+    <item>
+      <title>修論発表会が行われました</title>
+      <link>https://yamaoka-kitaguchi-lab.github.io/news/2018/e020701/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2018/e020701/</guid>
+      <description>ほげほげほげ</description>
+    </item>
+    
+    <item>
+      <title>博士論文中間発表会が行われました</title>
+      <link>https://yamaoka-kitaguchi-lab.github.io/news/2018/e020702/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2018/e020702/</guid>
+      <description>ほげほげほげ</description>
+    </item>
+    
+    <item>
+      <title>冬ゼミを開催しました</title>
+      <link>https://yamaoka-kitaguchi-lab.github.io/news/2017/e1217/</link>
+      <pubDate>Sun, 17 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2017/e1217/</guid>
+      <description>ほげほげほげ</description>
+    </item>
+    
+    <item>
+      <title>M1構想発表会が行われました</title>
+      <link>https://yamaoka-kitaguchi-lab.github.io/news/2017/e1201/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2017/e1201/</guid>
+      <description>ほげほげほげ</description>
+    </item>
+    
+    <item>
+      <title>修士中間発表会が行われました</title>
+      <link>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0921/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0921/</guid>
+      <description>ほげほげほげ</description>
+    </item>
+    
+    <item>
+      <title>春旅行に行きました</title>
+      <link>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0601/</link>
+      <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0601/</guid>
+      <description>ほげほげ</description>
+    </item>
+    
+    <item>
+      <title>北口准教授が着任されました</title>
+      <link>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0501/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0501/</guid>
+      <description>北口善明准教授が学術国際情報センター(GSIC)に5月1日付で着任されました．北口先生は工学院情報通信系も担当され，北口研究室が新たに開設されます．これに伴い，当分の間，山岡研究室は北口研究室と共同運営を行うことになりました．今後も山岡・北口研究室をよろしくお願いします．</description>
+    </item>
+    
+  </channel>
+</rss>
