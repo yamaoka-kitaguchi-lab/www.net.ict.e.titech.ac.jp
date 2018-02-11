@@ -1,1 +1,2 @@
-# www.net.ict.e.titech.ac.jp
+# 研究室トップページ
+このリポジトリは https://yamaoka-kitaguchi-lab.github.io/ のソースコードを管理します．  
