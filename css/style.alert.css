@@ -1,0 +1,17 @@
+.alert {
+  margin: 0;
+}
+
+.alert p {
+  font-size: 16px;
+}
+
+.info {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.info .glyphicon, .alert .glyphicon {
+  padding-right: 5px;
+}

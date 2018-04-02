@@ -1,0 +1,98 @@
+body {
+  margin-top: 0;;
+}
+
+.navbar-default {
+  border: none;
+  margin: 0;
+  z-index: 2;
+}
+
+#navbar-main .navbar-link-transparent {
+  color: #bbb;
+}
+
+#navbar-main .navbar-link-transparent:hover, #navbar-main .navbar-link-transparent:focus {
+  background-color: transparent;
+  color: #fff;
+}
+
+#navbar-toggle-btn.navbar-transparent > .icon-bar {
+  background-color: #ddd;
+}
+
+#particles-js {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  background-color: #0e234d;
+  z-index: -2;
+}
+
+.jumbotron-main {
+ color: #fff;
+ position: relative;
+ padding-top: 80px;
+ margin-bottom: 40px;
+ overflow: hidden;
+}
+
+.jumbotron-btn {
+  border: 1px solid #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .jumbotron-main { padding-bottom: 0; }
+  .jumbotron-main h1 { margin-top: 0; }
+}
+
+
+.news-headline-list {
+  margin-bottom: 0;
+  padding-left: 5px;
+  border-left: 1px solid #fff;
+  overflow: scroll;
+  max-height: 220px;
+}
+
+.news-headline {
+  height: 28px;
+  line-height: 28px;
+  color: #fff;
+  padding: 0 0 0 10px;
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.news-headline-date {
+  font-style: normal;
+  display: inline-block;
+  min-width: 70px;
+  margin-right: 5px;
+}
+
+.show-all-news {
+  text-align: right;
+  margin: 0;
+  padding-left: 0;
+}
+
+.show-all-news > a {
+  font-size: 13px;
+  color: #bbb;
+}
+
+.show-all-news > a:hover, .show-all-news > a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.show-all-news > a > .glyphicon {
+  padding-right: 5px;
+}

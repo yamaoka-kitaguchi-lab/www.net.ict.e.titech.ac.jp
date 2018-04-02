@@ -1,0 +1,49 @@
+section > h2 {
+  border: none;
+  padding: 0;
+}
+
+.event-badge {
+  margin-left: 10px;
+}
+
+.event-item-list {
+  padding: 0;
+}
+
+.event-item {
+  margin-bottom: 12px;
+}
+
+.event-item-heading {
+  border-bottom: 1px solid #ddd;
+}
+
+.event-item-title {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.event-item-meta > p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.event-item-meta .glyphicon {
+  padding-right: 5px;
+}
+
+.event-item-meta p {
+  display: inline-block;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.event-item-body {
+  background-color: #fff;
+}
+
+.event-item-body p {
+  font-size: 16px;
+  margin: 0;
+}
