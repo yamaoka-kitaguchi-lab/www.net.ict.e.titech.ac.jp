@@ -94,9 +94,6 @@ $(document).ready(() => {
       const heading = group['role']['ja'] + " " + group['role']['en'];
       $("#pastmembers")
         .append($('<h3>').text(heading))
-        .append($('<small class="no-margin info">')
-          .append($('<span class="glyphicon glyphicon-envelope">'))
-          .append("account@net.ict.e.titech.ac.jp"))
         .append($('<div class="table-responsive panel panel-body">')
           .append($('<table class="table">')
             .append(thead(group))
