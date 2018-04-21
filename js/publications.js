@@ -1,8 +1,8 @@
 $(document).ready(() => {
   const repository = "https://github.com/yamaoka-kitaguchi-lab/publications/";
-  const index_url = "https://raw.githubusercontent.com/yamaoka-kitaguchi-lab/publications/master/index.json";
+  const baseurl = "https://raw.githubusercontent.com/yamaoka-kitaguchi-lab/publications/master";
 
-  const fetch_and_build = (url, builder) => {
+  const fetch_and_build = (url, builder, builderargs) => {
     const filename = url.split('/')[url.split('/').length-1];
     $("#erroralert")
       .append($('<div id="' + builder.name + '" class="alert alert-info">')
@@ -12,7 +12,7 @@ $(document).ready(() => {
         .append($('<a href="' + url + '">').text(filename)))
     $.getJSON(url)
     .done((data) => {
-      builder(data);
+      builder(data, builderargs);
       $("#" + builder.name).remove();
     })
     .fail((jqxhr, textStatus, error) => {
@@ -44,28 +44,157 @@ $(document).ready(() => {
     })
   };
 
-  const build_publications_list = (index) => {
-    console.log(index);
-    const build_tab = (pub, yearlst) => {
-    }
+  const build_tab_content = (tabid, yearlst, tabcontent) => {
+    const build_degree_table = (json, args) => {
+      const label = json['label'];
+      const thead = $('<thead>')
+        .append($('<tr>')
+          .append($('<th>').text(label['id']['ja']))
+          .append($('<th>').text(label['degree']['ja']))
+          .append($('<th>').text(label['name']['ja']))
+          .append($('<th>').text(label['title']['ja']))
+          .append($('<th>').text(label['supervisor']['ja']))
+          .append($('<th>').text(label['previous']['ja']))
+          .append($('<th>').text(label['tag']['ja'])));
+      const tbody = $('<tbody>');
+      for (var student of json['students']) {
+        const title = $('<a href="' + student['url'] + '">').text(student['title']['ja']);
+        const tag = $('<td>')
+        for (var item of student['tag']) {
+          tag.append($('<span class="label label-primary category-tag-item tag-item">').text(item['ja']));
+        }
+        tbody.append($('<tr>')
+          .append($('<td>').text(student['id']))
+          .append($('<td>').text(student['degree']['ja']))
+          .append($('<td>').text(student['name']['ja']))
+          .append($('<td>').append(title))
+          .append($('<td>').text(student['supervisor']['ja']))
+          .append($('<td>').text(student['previous']['ja']))
+          .append(tag));
+      }
+      const table = $('<div class="table-responsive panel panel-body">')
+        .append($('<table class="table">')
+          .append(thead)
+          .append(tbody));
+      args['parent'].append(args['header']).append(table);
+    };
 
-    const tabbar = $('<ul id="tabbar" class="nav nav-pills">');
+    const build_conference_table = (json, args) => {
+      const label = json['label'];
+      const thead = $('<thead>')
+        .append($('<tr>')
+          .append($('<th>').text(label['id']['ja']))
+          .append($('<th>').text(label['name']['ja']))
+          .append($('<th>').text(label['title']['ja']))
+          .append($('<th>').text(label['conference']['ja']))
+          .append($('<th>').text(label['coresearcher']['ja']))
+          .append($('<th>').text(label['location']['ja']))
+          .append($('<th>').text(label['date']['ja'])));
+      const tbody = $('<tbody>');
+      for (var student of json['students']) {
+        const title = $('<a href="' + student['url'] + '">');
+        if (student['title']['ja'] != '') title.text(student['title']['ja']);
+        else title.text(student['title']['en']);
+        const coresearcher = $('<td>');
+        for (var person of student['coresearcher']) {
+          coresearcher.append($('<span class="label label-success category-tag-item tag-item">').text(person['ja']));
+        }
+        tbody.append($('<tr>')
+          .append($('<td>').text(student['id']))
+          .append($('<td>').text(student['name']['ja']))
+          .append($('<td>').append(title))
+          .append($('<td>').text(student['conference']['ja']))
+          .append(coresearcher)
+          .append($('<td>').text(student['location']['ja']))
+          .append($('<td>').text(student['date']['ja'])));
+      }
+      const table = $('<div class="table-responsive panel panel-body">')
+        .append($('<table class="table">')
+          .append(thead)
+          .append(tbody));
+      args['parent'].append(args['header']).append(table);
+    };
+
+    const build_journal_table = (json, args) => {
+      const label = json['label'];
+      const thead = $('<thead>')
+        .append($('<tr>')
+          .append($('<th>').text(label['id']['ja']))
+          .append($('<th>').text(label['name']['ja']))
+          .append($('<th>').text(label['title']['ja']))
+          .append($('<th>').text(label['journal']['ja']))
+          .append($('<th>').text(label['coresearcher']['ja']))
+          .append($('<th>').text(label['vol']['en']))
+          .append($('<th>').text(label['no']['en']))
+          .append($('<th>').text(label['pp']['en']))
+          .append($('<th>').text(label['date']['ja'])));
+      const tbody = $('<tbody>');
+      for (var student of json['students']) {
+        const title = $('<a href="' + student['url'] + '">');
+        if (student['title']['ja'] != '') title.text(student['title']['ja']);
+        else title.text(student['title']['en']);
+        const coresearcher = $('<td>');
+        for (var person of student['coresearcher']) {
+          coresearcher.append($('<span class="label label-success category-tag-item tag-item">').text(person['ja']));
+        }
+        tbody.append($('<tr>')
+          .append($('<td>').text(student['id']))
+          .append($('<td>').text(student['name']['ja']))
+          .append($('<td>').append(title))
+          .append($('<td>').text(student['journal']['ja']))
+          .append(coresearcher)
+          .append($('<td>').text(student['vol']))
+          .append($('<td>').text(student['no']))
+          .append($('<td>').text(student['pp']))
+          .append($('<td>').text(student['date']['ja'])));
+      }
+      const table = $('<div class="table-responsive panel panel-body">')
+        .append($('<table class="table">')
+          .append(thead)
+          .append(tbody));
+      args['parent'].append(args['header']).append(table);
+    };
+
+    const tabpane = $('<div class="tab-pane" id="' + tabid + '">');
+    switch (tabid) {
+      case 'degree':
+        var jsonbuilder = build_degree_table;
+        break;
+      case 'domestic': case 'international':
+        var jsonbuilder = build_conference_table;
+        break;
+      case 'journal':
+        var jsonbuilder = build_journal_table;
+        break;
+    }
+    for (year of yearlst) {
+      const jsonurl = baseurl + '/' + tabid + '/' + tabid + '_' + year + '.json';
+      const header = $('<h3>').text(year);
+      fetch_and_build(jsonurl, jsonbuilder, {'parent': tabpane, 'header': header});
+    }
+    tabcontent.append(tabpane);
+  };
+
+  const build_publications_list = (index, _) => {
+    const tabbar = $('<ul id="tabbar" class="nav nav-pills nav-justified">');
     const tabcontent = $('<div id="tabcontent" class="tab-content">');
-    const publst = ["degree", "domestic", "international", "journal"];
-
-    for (var idx in publist) {
-      const tabid = publst[idx];
-      const tabname = index['label']['ja'] + " " + index['label']['en'];
-      tabbar.append($('<li>').append($('<a href="#' + tabid + '" data-toggle="pill">').text(tabname)));
-      tabcontent.append(build_content(tabid, yearlst));
+    const tabidlst = ["degree", "domestic", "international", "journal"];
+    for (var tabid of tabidlst) {
+      const label = index['label'][tabid];
+      const tabname = label['ja'] + " " + label['en'];
+      const yearlst = index['publications'][tabid];
+      tabbar.append($('<li>')
+        .append($('<a href="#' + tabid + '" data-toggle="pill">').text(tabname)
+          .append('<span id="badge-' + tabid + '" class="badge">')));
+      build_tab_content(tabid, yearlst, tabcontent);
     }
-
     $("#publications").append(tabbar);
     $("#publications").append(tabcontent);
     $("#tabbar li:first-child").addClass("active");
-    $("#tabcontent li:first-child").addClass("active");
+    $("#tabcontent div:first-child").addClass("active");
   };
 
+  const indexurl = baseurl + "/" + "index.json";
   $("#erroralert").empty();
-  // fetch_and_build(index_url, build_publications_list);
+  fetch_and_build(indexurl, build_publications_list, null);
 });

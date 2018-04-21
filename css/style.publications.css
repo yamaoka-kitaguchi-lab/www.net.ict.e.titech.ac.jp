@@ -8,7 +8,7 @@
   text-overflow: ellipsis;
 }
 
-.nav-pills > li > a.category > span.badge {
+#tabbar > li > a > span.badge {
   margin-left: 10px;
 }
 
