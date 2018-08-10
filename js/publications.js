@@ -38,7 +38,7 @@ $(document).ready(() => {
           .append($('<p>')
             .append($('<a href="' + url + '">').text(filename))
             .append(" に問題があります．GitHubリポジトリ ")
-            .append($('<a href="' + repository + '">').text("yamaoka-kitaguchi-lab/members"))
+            .append($('<a href="' + repository + '">').text("yamaoka-kitaguchi-lab/publications"))
             .append(" を確認してください．")));
       console.error(error);
     })
@@ -170,7 +170,9 @@ $(document).ready(() => {
     for (year of yearlst) {
       const jsonurl = baseurl + '/' + tabid + '/' + tabid + '_' + year + '.json';
       const header = $('<h3>').text(year);
-      fetch_and_build(jsonurl, jsonbuilder, {'parent': tabpane, 'header': header});
+      const div = $('<div>');
+      tabpane.append(div);
+      fetch_and_build(jsonurl, jsonbuilder, {'parent': div, 'header': header});
     }
     tabcontent.append(tabpane);
   };

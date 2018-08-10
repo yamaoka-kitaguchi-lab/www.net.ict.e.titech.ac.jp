@@ -44,23 +44,23 @@ a, .btn {
 }
 
 @media screen and (min-width: 768px) {
-  section h1 { font-size: 38px; }
-  section h2 { font-size: 32px; }
-  section h3 { font-size: 24px; }
-  section p, section li { font-size: 20px; }
+  section h1 { font-size: 36px; }
+  section h2 { font-size: 30px; }
+  section h3 { font-size: 25px; }
+  section p, section li { font-size: 18px; }
 }
 
 @media screen and (max-width: 767px) {
   section h1 { font-size: 28px; }
-  section h2 { font-size: 26px; }
-  section h3 { font-size: 22px; }
-  section p, section li { font-size: 18px; }
-  .jumbotron-btn { font-size: 20px; }
+  section h2 { font-size: 24px; }
+  section h3 { font-size: 23px; }
+  section p, section li { font-size: 16px; }
+  .jumbotron-btn { font-size: 18px; }
 }
 
-section h2 {
-  border-left: 8px solid #333;
-  padding-left: 8px;
+h2 {
+  padding-bottom: 0.2em;
+  border-bottom: 2px dashed #333;
 }
 
 table > thead > tr > th, table > tbody > tr > td {

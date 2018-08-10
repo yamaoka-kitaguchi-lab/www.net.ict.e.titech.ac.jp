@@ -131,8 +131,8 @@ $(document).ready(() => {
           .append($('<td>').text(member['period']['en']))
           .append($('<td>').append(name_ja))
           .append($('<td>').append(name_en))
-          .append($('<td>').append(members['affiliation']['en']))
-          .append($('<td>').append(members['program']['en'])));
+          .append($('<td>').append(member['affiliation']['en']))
+          .append($('<td>').append(member['program']['en'])));
       }
       return tbody;
     };
@@ -193,5 +193,5 @@ $(document).ready(() => {
   $("#erroralert").empty();
   fetch_and_build(members_url, build_members_list);
   fetch_and_build(past_students_url, build_past_students_list);
-  // fetch_and_build(past_exchange_students_url, build_past_exchange_students_list);
+  fetch_and_build(past_exchange_students_url, build_past_exchange_students_list);
 });

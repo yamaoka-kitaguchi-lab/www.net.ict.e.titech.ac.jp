@@ -3,6 +3,10 @@ section > h2 {
   padding: 0;
 }
 
+.panel, .panel-heading, .panel-body {
+  border-radius: 0;
+}
+
 .event-badge {
   margin-left: 10px;
 }
@@ -17,6 +21,38 @@ section > h2 {
 
 .event-item-heading {
   border-bottom: 1px solid #ddd;
+  margin-bottom: 2px;
+}
+
+.event-item-blue,
+.event-item-dark-blue {
+  border-left: 4px solid #2196f3;
+}
+
+.event-item-light-blue {
+  border-left: 4px solid #d9edf7;
+}
+
+.event-item-yellow,
+.event-item-dark-yellow {
+  border-left: 4px solid #ffeb3b;
+}
+
+.event-item-light-yellow {
+  border-left: 4px solid #f7ecb5;
+}
+
+.event-item-green,
+.event-item-dark-green {
+  border-left: 4px solid #3c763d;
+}
+
+.event-item-light-green {
+  border-left: 4px solid #d9eeda;
+}
+
+.event-item-gray {
+  border-left: 4px solid #ddd;
 }
 
 .event-item-title {
@@ -44,6 +80,5 @@ section > h2 {
 }
 
 .event-item-body p {
-  font-size: 16px;
-  margin: 0;
+  margin-bottom: 12px;
 }

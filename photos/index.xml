@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://yamaoka-kitaguchi-lab.github.io/photos/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Yamaoka-Kitaguchi Laboratory</title>
+    <link>https://www.net.ict.e.titech.ac.jp/photos/</link>
+    <description>Recent content on Yamaoka-Kitaguchi Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ja-jp</language>
     
-	<atom:link href="https://yamaoka-kitaguchi-lab.github.io/photos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.net.ict.e.titech.ac.jp/photos/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

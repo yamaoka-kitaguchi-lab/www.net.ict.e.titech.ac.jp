@@ -1,104 +1,217 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://yamaoka-kitaguchi-lab.github.io/news/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Yamaoka-Kitaguchi Laboratory</title>
+    <link>https://www.net.ict.e.titech.ac.jp/news/</link>
+    <description>Recent content on Yamaoka-Kitaguchi Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 20 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 07 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://yamaoka-kitaguchi-lab.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.net.ict.e.titech.ac.jp/news/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>IEICE総合大会で発表しました</title>
-      <link>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0320/</link>
-      <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
+      <title>インターネットと運用技術研究会で発表しました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/190307/</link>
+      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0320/</guid>
-      <description>ほげほげほげ</description>
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/190307/</guid>
+      <description>B4の澤田さんが，ホテルグランドエクシブ鳴門＆ザ・ロッジで開催された，情報処理学会 第44回インターネットと運用技術研究発表会で発表しました．</description>
     </item>
     
     <item>
       <title>情報ネットワーク研究会で発表しました</title>
-      <link>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0301/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/190304/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0301/</guid>
-      <description>ほげほげほげ</description>
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/190304/</guid>
+      <description>Dのインタラウィジットさん，M2の赤岡さんと松浦さん，M1の宮さん，B4の仲宗根さんが， 沖縄コンベンションセンターで開催された，電子情報通信学会 IN/NS研究会で発表しました．</description>
     </item>
     
     <item>
-      <title>学士論文発表会が行われました</title>
-      <link>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0214/</link>
-      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      <title>学部卒論発表会が開催されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/190212/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2018/e0214/</guid>
-      <description>ほげほげほげ</description>
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/190212/</guid>
+      <description>B4の澤田さん，仲宗根さんが，平成30年度学部卒論発表会で発表しました．</description>
     </item>
     
     <item>
-      <title>修論発表会が行われました</title>
-      <link>https://yamaoka-kitaguchi-lab.github.io/news/2018/e020701/</link>
-      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      <title>修士論文発表会が開催されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/190206a/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2018/e020701/</guid>
-      <description>ほげほげほげ</description>
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/190206a/</guid>
+      <description>M2の赤岡さん，松浦さん，村上さんが，修士論文発表会で発表しました．</description>
     </item>
     
     <item>
-      <title>博士論文中間発表会が行われました</title>
-      <link>https://yamaoka-kitaguchi-lab.github.io/news/2018/e020702/</link>
-      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      <title>博士論文発表会が開催されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/190206b/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2018/e020702/</guid>
-      <description>ほげほげほげ</description>
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/190206b/</guid>
+      <description>Dの田辺さんが，博士論文発表会で発表しました．</description>
+    </item>
+    
+    <item>
+      <title>IEEE CCNC 2019 で発表しました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/190111/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/190111/</guid>
+      <description>M2の赤岡さんとM1の宮さんが，アメリカのラスベガスで開催された国際会議 IEEE Consumer Communications &amp;amp; Networking Conference  で発表しました．</description>
     </item>
     
     <item>
       <title>冬ゼミを開催しました</title>
-      <link>https://yamaoka-kitaguchi-lab.github.io/news/2017/e1217/</link>
-      <pubDate>Sun, 17 Dec 2017 00:00:00 +0000</pubDate>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/181216/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2017/e1217/</guid>
-      <description>ほげほげほげ</description>
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/181216/</guid>
+      <description>マホロバマインズ三浦にて .net Winter Workshop 2018 を開催しました．
+当研究室からは，M1の平井さん，宮さん，B4の澤田さん，仲宗根さんの4名が発表したほか， 工学院大学から3名，東京海洋大学から1名の学生に発表いただきました．</description>
     </item>
     
     <item>
-      <title>M1構想発表会が行われました</title>
-      <link>https://yamaoka-kitaguchi-lab.github.io/news/2017/e1201/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <title>学部3年生が配属されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/181130/</link>
+      <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2017/e1201/</guid>
-      <description>ほげほげほげ</description>
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/181130/</guid>
+      <description>学士特定課題研究の履修要件から，学部3年生の大橋さん，湯田さん，オチラルさんが当研究室に配属されました．</description>
     </item>
     
     <item>
-      <title>修士中間発表会が行われました</title>
-      <link>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0921/</link>
-      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      <title>研究プロジェクト後半発表会が開催されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/181116/</link>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0921/</guid>
-      <description>ほげほげほげ</description>
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/181116/</guid>
+      <description>当研究室に仮配属された学部3年生が，研究プロジェクトの成果発表を行いました．</description>
+    </item>
+    
+    <item>
+      <title>研究プロジェクトで学部3年生が仮配属されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/181024/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/181024/</guid>
+      <description>8名の学部3年生が，研究プロジェクトの履修要件から当研究室に一時的に配属されました．
+仮配属中の4週間，3年生には小規模なネットワーク構築を体験してもらいます．</description>
+    </item>
+    
+    <item>
+      <title>工大祭が開催されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/181006/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/181006/</guid>
+      <description>例年通り，パネル展示と遅延体験デモを行いました．</description>
+    </item>
+    
+    <item>
+      <title>IEICEソサイエティ大会で発表しました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/180911/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/180911/</guid>
+      <description>Dのインタラウィジットさん，M2の赤岡さん，M1の宮さんが，金沢大学角間キャンパスで開催された， 電子情報通信学会ソサイエティ大会で発表しました．</description>
+    </item>
+    
+    <item>
+      <title>IEEE PIMRC 2018 で発表しました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/180909/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/180909/</guid>
+      <description>M2の村上さんが，イタリアのボローニャで開催された国際会議 IEEE International Symposium on Personal, Indoor and Mobile Radio Communications で発表しました．</description>
+    </item>
+    
+    <item>
+      <title>修士中間審査が行われました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/180905/</link>
+      <pubDate>Wed, 05 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/180905/</guid>
+      <description>M2の赤岡さん，松浦さん，村上さんが修士中間審査において研究成果を発表しました．</description>
+    </item>
+    
+    <item>
+      <title>留学生が配属されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/180901/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/180901/</guid>
+      <description>東京工業大学の学術協定交流校 National Taiwan University of Science and Technology より，リンさんが特定のプログラムによらない協定校からの留学生（海外交流学生）として当研究室に配属になりました．</description>
+    </item>
+    
+    <item>
+      <title>研究室引越しとネットワーク移設作業を行いました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/180831/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/180831/</guid>
+      <description>新たに南3号館303号室と313号室を居室として利用できることになり，引越し作業を行いました．</description>
+    </item>
+    
+    <item>
+      <title>YSEP発表会が開催されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/180802/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/180802/</guid>
+      <description>当研究室所属の交換留学生，ホルベインさんが，YSEP発表会で研究成果を発表しました．</description>
     </item>
     
     <item>
       <title>春旅行に行きました</title>
-      <link>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0601/</link>
-      <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/180623/</link>
+      <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0601/</guid>
-      <description>ほげほげ</description>
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/180623/</guid>
+      <description>伊豆・初島へ研究室旅行に行きました．</description>
+    </item>
+    
+    <item>
+      <title>春ゼミと新入生歓迎会を開催しました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/180411/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/180411/</guid>
+      <description>新入生含む3名のM1が，これから研究を始めるB4に向けて，学士論文研究の成果を発表しました．</description>
+    </item>
+    
+    <item>
+      <title>学部4年生と修士1年生が配属されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/180406/</link>
+      <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/180406/</guid>
+      <description>新B4の澤田さん，仲宗根さん，平野さん，新M1の平井さん，坂東さんが当研究室に配属されました．</description>
+    </item>
+    
+    <item>
+      <title>学位記授与式が行われました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2018/180326/</link>
+      <pubDate>Mon, 26 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2018/180326/</guid>
+      <description>M2の石井さん，今井さん，岡本さん，小杉山さん，B4の渡邊さんが卒業しました．</description>
     </item>
     
     <item>
       <title>北口准教授が着任されました</title>
-      <link>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0501/</link>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2017/170501/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yamaoka-kitaguchi-lab.github.io/news/2017/e0501/</guid>
-      <description>北口善明准教授が学術国際情報センター(GSIC)に5月1日付で着任されました．北口先生は工学院情報通信系も担当され，北口研究室が新たに開設されます．これに伴い，当分の間，山岡研究室は北口研究室と共同運営を行うことになりました．今後も山岡・北口研究室をよろしくお願いします．</description>
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2017/170501/</guid>
+      <description>北口善明准教授が学術国際情報センターGSICに5月1日付で着任されました．
+北口先生は工学院情報通信系も担当され，北口研究室が新たに開設されます．
+これに伴い，当分の間，山岡研究室は北口研究室と共同運営を行うこととなりました．
+今後も山岡・北口研究室をよろしくお願いします．</description>
     </item>
     
   </channel>
