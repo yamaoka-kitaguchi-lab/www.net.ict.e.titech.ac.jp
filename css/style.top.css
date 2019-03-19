@@ -1,5 +1,6 @@
 body {
-  margin-top: 0;;
+  margin-top: 0;
+  overflow: hidden;
 }
 
 .navbar-default {
@@ -49,11 +50,17 @@ body {
 
 
 .news-headline-list {
+  max-height: 220px;
   margin-bottom: 0;
   padding-left: 5px;
   border-left: 1px solid #fff;
-  overflow: scroll;
-  max-height: 220px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+}
+
+.news-headline-list::-webkit-scrollbar {
+  display: none;
 }
 
 .news-headline {
