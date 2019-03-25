@@ -3,6 +3,11 @@ section > h2 {
   padding: 0;
 }
 
+.news-image {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
 .panel, .panel-heading, .panel-body {
   border-radius: 0;
 }
