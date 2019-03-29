@@ -1,0 +1,10 @@
+h2:nth-child(2) {
+  margin-top: 0 !important;
+}
+
+div.mark {
+  display: inline-block;
+  width: 400px;
+  color: white;
+  background-color: rgba(52,58,64,0.7);
+}

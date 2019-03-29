@@ -1,0 +1,125 @@
+:root {
+  --theme-white: #f8f9fa;
+}
+
+* {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  margin-top: 80px;
+  background-color: var(--theme-white);
+}
+
+.bg-theme-white {
+  background-color: var(--theme-white);
+}
+
+.spacemono {
+  font-family: 'Space Mono', monospace;
+  font-weight: 200;
+}
+
+.plexmono {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 200;
+}
+
+.overpassmono {
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 200;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,.06), 0 4px 5px 0 rgba(0,0,0,.06), 0 1px 10px 0 rgba(0,0,0,.08) !important;
+}
+
+.shadow-xs {
+  border-bottom: 1px solid rgba(0,0,0,.14);
+}
+
+@media screen and (min-width: 768px) {
+  section h1 { font-size: 36px; }
+  section h2 { font-size: 30px; }
+  section h3 { font-size: 25px; }
+  section p, section li { font-size: 18px; }
+}
+
+@media screen and (max-width: 767px) {
+  section h1 { font-size: 28px; }
+  section h2 { font-size: 24px; }
+  section h3 { font-size: 23px; }
+  section p, section li { font-size: 16px; }
+  .jumbotron-btn { font-size: 18px; }
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  padding-bottom: 0.2em;
+  border-bottom: 2px dashed #333;
+  margin-top: 30px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+b, .bold {
+  font-weight: 400;
+}
+
+mark.yellow {
+  background: linear-gradient(rgba(255,255,255,0) 65%, rgba(255,255,169,0.4) 65%);
+}
+
+mark.blue {
+  background: linear-gradient(rgba(255,255,255,0) 65%, rgba(194,224,255,0.4) 65%);
+}
+
+a, .btn {
+  transition-property: none !important;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.no-transition {
+  transition-property: none;
+}
+
+.normal-link {
+  color: inherit;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.normal-link:hover,
+.normal-link:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+table > thead > tr > th,
+table > tbody > tr > td {
+  white-space: nowrap;
+}
+
+table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.footer-link {
+  display: block;
+  font-size: 14px;
+}

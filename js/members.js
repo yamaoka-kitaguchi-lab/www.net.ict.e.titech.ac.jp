@@ -9,12 +9,12 @@ $(document).ready(() => {
       const label = group['label'];
       return $('<thead>')
         .append($('<tr>')
-          .append($('<th>').text(label['grade']['ja']))
-          .append($('<th>').text(label['grade']['en']))
-          .append($('<th>').text(label['name']['ja']))
-          .append($('<th>').text(label['name']['en']))
-          .append($('<th>').text(label['room']['ja'] + ' ' + label['room']['en']))
-          .append($('<th>').text(label['account']['ja'] + ' ' + label['account']['en'])));
+          .append($('<th class="p-2 border-top-0">').text(label['grade']['ja']))
+          .append($('<th class="p-2 border-top-0">').text(label['grade']['en']))
+          .append($('<th class="p-2 border-top-0">').text(label['name']['ja']))
+          .append($('<th class="p-2 border-top-0">').text(label['name']['en']))
+          .append($('<th class="p-2 border-top-0">').text(label['room']['ja'] + ' ' + label['room']['en']))
+          .append($('<th class="p-2 border-top-0">').text(label['account']['ja'] + ' ' + label['account']['en'])));
     };
 
     const tbody = (group) => {
@@ -29,12 +29,12 @@ $(document).ready(() => {
           name_en = $('<a href="' + member['url'] + '">').text(name_en);
         }
         tbody.append($('<tr>')
-          .append($('<td>').text(member['grade']['ja']))
-          .append($('<td>').text(member['grade']['en']))
-          .append($('<td>').append(name_ja))
-          .append($('<td>').append(name_en))
-          .append($('<td>').text(member['room']))
-          .append($('<td>').text(member['account'])));
+          .append($('<td class="p-2">').text(member['grade']['ja']))
+          .append($('<td class="p-2">').text(member['grade']['en']))
+          .append($('<td class="p-2">').append(name_ja))
+          .append($('<td class="p-2">').append(name_en))
+          .append($('<td class="p-2">').text(member['room']))
+          .append($('<td class="p-2">').text(member['account'])));
       }
       return tbody;
     };
@@ -43,12 +43,12 @@ $(document).ready(() => {
       const group = json[idx];
       const heading = group['role']['ja'] + " " + group['role']['en'];
       $("#members")
-        .append($('<h3>').text(heading))
-        .append($('<small class="no-margin info">')
-          .append($('<span class="glyphicon glyphicon-envelope">'))
+        .append($('<h3 class="mb-0">').text(heading))
+        .append($('<small class="m-0 info">')
+          .append($('<i class="far fa-envelope pl-1 pr-2"></i>'))
           .append("account@net.ict.e.titech.ac.jp"))
-        .append($('<div class="table-responsive panel panel-body">')
-          .append($('<table class="table">')
+        .append($('<div class="table-responsive card card-body p-3 mt-3">')
+          .append($('<table class="table mb-0">')
             .append(thead(group))
             .append(tbody(group))));
     }
@@ -59,12 +59,12 @@ $(document).ready(() => {
       const label = group['label'];
       return $('<thead>')
         .append($('<tr>')
-          .append($('<th>').text(label['date']['ja']))
-          .append($('<th>').text(label['date']['en']))
-          .append($('<th>').text(label['name']['ja']))
-          .append($('<th>').text(label['name']['en']))
-          .append($('<th>').text(label['degree']['ja']))
-          .append($('<th>').text(label['degree']['en'])));
+          .append($('<th class="p-2 border-top-0">').text(label['date']['ja']))
+          .append($('<th class="p-2 border-top-0">').text(label['date']['en']))
+          .append($('<th class="p-2 border-top-0">').text(label['name']['ja']))
+          .append($('<th class="p-2 border-top-0">').text(label['name']['en']))
+          .append($('<th class="p-2 border-top-0">').text(label['degree']['ja']))
+          .append($('<th class="p-2 border-top-0">').text(label['degree']['en'])));
     };
 
     const tbody = (group) => {
@@ -79,12 +79,12 @@ $(document).ready(() => {
           name_en = $('<a href="' + member['url'] + '">').text(name_en);
         }
         tbody.append($('<tr>')
-          .append($('<td>').text(member['date']['ja']))
-          .append($('<td>').text(member['date']['en']))
-          .append($('<td>').append(name_ja))
-          .append($('<td>').append(name_en))
-          .append($('<td>').text(member['degree']['ja']))
-          .append($('<td>').text(member['degree']['en'])));
+          .append($('<td class="p-2">').text(member['date']['ja']))
+          .append($('<td class="p-2">').text(member['date']['en']))
+          .append($('<td class="p-2">').append(name_ja))
+          .append($('<td class="p-2">').append(name_en))
+          .append($('<td class="p-2">').text(member['degree']['ja']))
+          .append($('<td class="p-2">').text(member['degree']['en'])));
       }
       return tbody;
     };
@@ -93,10 +93,9 @@ $(document).ready(() => {
       const group = json[idx];
       const heading = group['role']['ja'] + " " + group['role']['en'];
       $("#pastmembers")
-        .append($('<h3>').text(heading))
-        .append($('<small class="no-margin info">'))
-        .append($('<div class="table-responsive panel panel-body">')
-          .append($('<table class="table">')
+        .append($('<h3 class="mb-0">').text(heading))
+        .append($('<div class="table-responsive card card-body p-3 mt-3">')
+          .append($('<table class="table mb-0">')
             .append(thead(group))
             .append(tbody(group))));
     }
@@ -107,12 +106,12 @@ $(document).ready(() => {
       const label = group['label'];
       return $('<thead>')
         .append($('<tr>')
-          .append($('<th>').text(label['period']['ja']))
-          .append($('<th>').text(label['period']['en']))
-          .append($('<th>').text(label['name']['ja']))
-          .append($('<th>').text(label['name']['en']))
-          .append($('<th>').text(label['affiliation']['en']))
-          .append($('<th>').text(label['program']['en'])));
+          .append($('<th class="p-2 border-top-0">').text(label['period']['ja']))
+          .append($('<th class="p-2 border-top-0">').text(label['period']['en']))
+          .append($('<th class="p-2 border-top-0">').text(label['name']['ja']))
+          .append($('<th class="p-2 border-top-0">').text(label['name']['en']))
+          .append($('<th class="p-2 border-top-0">').text(label['affiliation']['en']))
+          .append($('<th class="p-2 border-top-0">').text(label['program']['en'])));
     };
 
     const tbody = (group) => {
@@ -127,12 +126,12 @@ $(document).ready(() => {
           name_en = $('<a href="' + member['url'] + '">').text(name_en);
         }
         tbody.append($('<tr>')
-          .append($('<td>').text(member['period']['ja']))
-          .append($('<td>').text(member['period']['en']))
-          .append($('<td>').append(name_ja))
-          .append($('<td>').append(name_en))
-          .append($('<td>').append(member['affiliation']['en']))
-          .append($('<td>').append(member['program']['en'])));
+          .append($('<td class="p-2">').text(member['period']['ja']))
+          .append($('<td class="p-2">').text(member['period']['en']))
+          .append($('<td class="p-2">').append(name_ja))
+          .append($('<td class="p-2">').append(name_en))
+          .append($('<td class="p-2">').append(member['affiliation']['en']))
+          .append($('<td class="p-2">').append(member['program']['en'])));
       }
       return tbody;
     };
@@ -141,8 +140,8 @@ $(document).ready(() => {
       const group = json[idx];
       const heading = group['role']['ja'] + " " + group['role']['en'];
       $("#pastmembers")
-        .append($('<div class="table-responsive panel panel-body">')
-          .append($('<table class="table">')
+        .append($('<div class="table-responsive card card-body p-3 mt-3">')
+          .append($('<table class="table mb-0">')
             .append(thead(group))
             .append(tbody(group))));
     }
@@ -153,7 +152,7 @@ $(document).ready(() => {
     $("#erroralert")
       .append($('<div id="' + builder.name + '" class="alert alert-info">')
         .append($('<strong>')
-          .append($('<span class="glyphicon glyphicon-cog">'))
+          .append($('<span class="spinner-border spinner-border-sm text-info mr-2">'))
           .append("ビルド中: "))
         .append($('<a href="' + url + '">').text(filename)))
     $.getJSON(url)
@@ -178,12 +177,12 @@ $(document).ready(() => {
       $("#erroralert")
         .append($('<div class="alert alert-danger">')
           .append($('<h4>')
-            .append($('<span class="glyphicon glyphicon-fire">'))
+            .append($('<i class="fas fa-fire pr-2"></i>'))
             .append(title)
             .append($('<strong>').text(cause)))
-          .append($('<p>')
+          .append($('<p class="mb-0">')
             .append($('<a href="' + url + '">').text(filename))
-            .append(" に問題があります．GitHubリポジトリ ")
+            .append(" に問題があります．<br>GitHubリポジトリ ")
             .append($('<a href="' + repository + '">').text("yamaoka-kitaguchi-lab/members"))
             .append(" を確認してください．")));
       console.error(error);

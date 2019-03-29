@@ -1,5 +1,9 @@
-$(document).ready(() => {
-  if (location.hostname != "yamaoka-kitaguchi-lab.github.io") {
-    $("#is-mirror").removeClass("no-display");
-  }
+const toggle_shadow = () => {
+  const p = $('nav').hasClass('bg-theme-white') && $(window).scrollTop() > 0
+  if (p === true) $('nav').removeClass('shadow-xs').addClass('shadow-sm');
+  else $('nav').removeClass('shadow-sm').addClass('shadow-xs');
+};
+
+$(document).scroll(() => {
+  toggle_shadow();
 });

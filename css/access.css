@@ -9,7 +9,3 @@
 @media screen and (min-width: 768px) {
   #ggmap { height: 640px; }
 }
-
-.panel p {
-  margin: 0;
-}
