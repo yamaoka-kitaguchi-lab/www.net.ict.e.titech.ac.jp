@@ -42,6 +42,11 @@ $(document).ready(() => {
     for (var idx in json) {
       const group = json[idx];
       const heading = group['role']['ja'] + " " + group['role']['en'];
+
+      // Remove "exchange-student field" if unnecessary
+      const members = group['members'];
+      if (members.length == 0) continue;
+
       $("#members")
         .append($('<h3 class="mb-0">').text(heading))
         .append($('<small class="m-0 info">')
@@ -139,7 +144,7 @@ $(document).ready(() => {
     for (var idx in json) {
       const group = json[idx];
       const heading = group['role']['ja'] + " " + group['role']['en'];
-      $("#pastmembers")
+      $("#pastexchangestudents")
         .append($('<div class="table-responsive card card-body p-3 mt-3">')
           .append($('<table class="table mb-0">')
             .append(thead(group))
