@@ -6,10 +6,49 @@
     <description>Recent content on Yamaoka-Kitaguchi Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 22 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.net.ict.e.titech.ac.jp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>春ゼミを開催しました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2020/200414/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2020/200414/</guid>
+      <description>春ゼミ2020はCOVID-19の影響でリモート開催となりました。 OB/OGへの招致と新入生歓迎会は開催を見送っています。
+今年度は7件の発表がありました．新入生の講演題目は次の通りです．
+ 石橋さん(M1)：低電源電圧・高線型電圧バッファ回路の構成に関する研究 小野さん(M1)：高パケットロス耐性を持つビデオストリーミングのためのQUICとHTTP/3の拡張 内藤さん(M1)：無線ボディエリアネットワークにおけるpolar符号の性能評価 廣さん(M1)：逆位相を用いた2チャネル一括OFDM変調における信号品質の測定  </description>
+    </item>
+    
+    <item>
+      <title>学位記が授与されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2019/200326/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2019/200326/</guid>
+      <description>今年度はCOVID-19の影響で全体での学位記授与式は中止になりました。 各指導教員より学位記が渡されます。 3名の学生が当研究室を卒業・修了しました。
+ 修士(工学): 平井和樹さん 学士(工学): 大橋滉也さん，オチラル ダワージャルガルさん  </description>
+    </item>
+    
+    <item>
+      <title>学部卒論発表会が開催されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2019/200212/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2019/200212/</guid>
+      <description>B4の大橋さん，湯田さん，ダワージャルガルさんが平成31年度学部卒論発表会で発表しました．</description>
+    </item>
+    
+    <item>
+      <title>修士論文発表会が開催されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2019/200205/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2019/200205/</guid>
+      <description>M2の平井さん，宮さんが修士論文発表会で発表しました．</description>
+    </item>
     
     <item>
       <title>冬ゼミを開催しました</title>
