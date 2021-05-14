@@ -58,7 +58,12 @@ $(document).ready(() => {
           .append($('<th class="p-2 border-top-0">').text(label['tag']['ja'])));
       const tbody = $('<tbody>');
       for (var student of json['students']) {
-        const title = $('<a href="' + student['url'] + '">').text(student['title']['ja']);
+        var titletag = $('<td class="p-2">').text(student['title']['ja'])
+        if (student['url'] != "") {
+          const title = $('<a href="' + student['url'] + '">').text(student['title']['ja']);
+          titletag = $('<td class="p-2">').append(title);
+        }
+
         const tag = $('<td class="p-2">')
         for (var item of student['tag']) {
           tag.append($('<span class="badge badge-primary mr-1">').text(item['ja']));
@@ -67,7 +72,7 @@ $(document).ready(() => {
           .append($('<td class="p-2">').text(student['id']))
           .append($('<td class="p-2">').text(student['degree']['ja']))
           .append($('<td class="p-2">').text(student['name']['ja']))
-          .append($('<td class="p-2">').append(title))
+          .append(titletag)
           .append($('<td class="p-2">').text(student['supervisor']['ja']))
           .append($('<td class="p-2">').text(student['previous']['ja']))
           .append(tag));
@@ -92,9 +97,14 @@ $(document).ready(() => {
           .append($('<th class="p-2 border-top-0">').text(label['date']['ja'])));
       const tbody = $('<tbody>');
       for (var student of json['students']) {
-        const title = $('<a href="' + student['url'] + '">');
-        if (student['title']['ja'] != '') title.text(student['title']['ja']);
-        else title.text(student['title']['en']);
+        var titletxt = student['title']['en'];
+        if (student['title']['ja'] != '') titletxt = student['title']['ja'];
+        var titletag = $('<td class="p-2">').text(titletxt)
+        if (student['url'] != "") {
+          const title = $('<a href="' + student['url'] + '">').text(titletxt);
+          titletag = $('<td class="p-2">').append(title);
+        }
+
         const coresearcher = $('<td class="p-2">');
         for (var person of student['coresearcher']) {
           coresearcher.append($('<span class="badge badge-success mr-1">').text(person['ja']));
@@ -102,7 +112,7 @@ $(document).ready(() => {
         tbody.append($('<tr>')
           .append($('<td class="p-2">').text(student['id']))
           .append($('<td class="p-2">').text(student['name']['ja']))
-          .append($('<td class="p-2">').append(title))
+          .append(titletag)
           .append($('<td class="p-2">').text(student['conference']['ja']))
           .append(coresearcher)
           .append($('<td class="p-2">').text(student['location']['ja']))
@@ -130,9 +140,14 @@ $(document).ready(() => {
           .append($('<th class="p-2 border-top-0">').text(label['date']['ja'])));
       const tbody = $('<tbody>');
       for (var student of json['students']) {
-        const title = $('<a href="' + student['url'] + '">');
-        if (student['title']['ja'] != '') title.text(student['title']['ja']);
-        else title.text(student['title']['en']);
+        var titletxt = student['title']['en'];
+        if (student['title']['ja'] != '') titletxt = student['title']['ja'];
+        var titletag = $('<td class="p-2">').text(titletxt)
+        if (student['url'] != "") {
+          const title = $('<a href="' + student['url'] + '">').text(titletxt);
+          titletag = $('<td class="p-2">').append(title);
+        }
+
         const coresearcher = $('<td class="p-2">');
         for (var person of student['coresearcher']) {
           coresearcher.append($('<span class="badge badge-success mr-1">').text(person['ja']));
@@ -140,7 +155,7 @@ $(document).ready(() => {
         tbody.append($('<tr>')
           .append($('<td class="p-2">').text(student['id']))
           .append($('<td class="p-2">').text(student['name']['ja']))
-          .append($('<td class="p-2">').append(title))
+          .append(titletag)
           .append($('<td class="p-2">').text(student['journal']['ja']))
           .append(coresearcher)
           .append($('<td class="p-2">').text(student['vol']))
