@@ -6,17 +6,36 @@
     <description>Recent content on Yamaoka-Kitaguchi Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.net.ict.e.titech.ac.jp/news/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>春ゼミを開催しました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2021/200407/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2021/200407/</guid>
+      <description>春ゼミ2021は昨年同様にリモート開催となりました。 OB/OGへの招致は見送りましたが，オンライン飲み会の場をセッティングしました。</description>
+    </item>
+    
+    <item>
+      <title>学位記が授与されました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2020/210326/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2020/210326/</guid>
+      <description>今年度はCOVID-19の影響で全体での学位記授与式は中止になりました。 各指導教員より学位記が渡されます。 1名の学生が当研究室を修了しました。
+ 修士(工学): 伊藤 佑樹さん  </description>
+    </item>
+    
+    <item>
       <title>学部3年生が配属されました</title>
-      <link>https://www.net.ict.e.titech.ac.jp/news/2020/191203/</link>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2020/201205/</link>
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.net.ict.e.titech.ac.jp/news/2020/191203/</guid>
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2020/201205/</guid>
       <description>学士特定課題研究の履修要件から，学部3年生の吉栖さん，脇本さんが当研究室に配属されました．</description>
     </item>
     
@@ -68,6 +87,15 @@
       <description>マホロバマインズ三浦にて .net Winter Workshop 2019 を開催しました．
 当研究室からは，M1の伊藤さん，B4の大橋さん，湯田さん，ダワージャルガルさんの4名が発表したほか，工学院大学から2名の学生に発表いただきました．
   </description>
+    </item>
+    
+    <item>
+      <title>冬ゼミを開催しました</title>
+      <link>https://www.net.ict.e.titech.ac.jp/news/2020/201219/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.net.ict.e.titech.ac.jp/news/2020/201219/</guid>
+      <description>.net Winter Workshop 2020 を開催しました。 本年度は COVID-19 の影響で，初めてのオンライン開催となりました。 OB/OGへの招致と懇親会の開催を見送っています。</description>
     </item>
     
     <item>
